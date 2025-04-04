@@ -1,50 +1,34 @@
-# === Node.js ===
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# === Logs ===
-logs/
-*.log
-*.tsbuildinfo
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+veribrowse-env/
 
-# === Env files ===
-.env
-.env.*.local
+# VSCode settings (optional)
+.vscode/
 
-# === Build output ===
-dist/
-build/
-
-# === Vite + React ===
-.vite/
-client/dist/
-client/.vite/
-
-# === TypeScript (if used) ===
-*.tsbuildinfo
-
-# === OS + IDE ===
+# Mac & system files
 .DS_Store
 Thumbs.db
 
-# === VSCode ===
-.vscode/
+# Python environment files
+*.egg-info/
+*.egg
+*.log
 
-# === Coverage reports ===
-coverage/
-.nyc_output/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# === MongoDB local DB dump ===
-dump/
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# === Misc ===
-*.local
-*.suo
-*.sw?
-*.zip
-*.tgz
-*.tar.gz
-*.bak
-*.old
+# dotenv files (if using)
+.env
